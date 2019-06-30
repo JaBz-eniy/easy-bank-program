@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+var bank_deposit = +prompt("введите сумму вклада в банк")
+var percent = +prompt("введите процент")
+
+alert("выполняем расчеты.")
+
+var year1 = ((bank_deposit / percent) + bank_deposit)
+	
+	alert("сумма за первый год: " + year1)	
+var year2 = ((year1 / percent) + year1)
+	
+	alert("сумма за второй год: " + year2)
+var year3 = ((year2 / percent)+ year2)
+	
+	alert("сумма за третий год: " + year3)
+var	year4 = ((year3 / percent)+ year3)
+	
+	alert("сумма за четвертый год: " + year4)
+var year5 = ((year4 / percent)+ year4)
+	
+	alert("сумма за все пять лет: " + year5)
+
+	document.write("by JaBz-eniy")
+
+</script>
